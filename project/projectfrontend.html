@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- head start -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <title>
+        MUSIC PLAYER
+    </title>
+    <link rel="stylesheet" type="text/css" href="frontendproject.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <header class="body-header">
+        <main>
+ <!-- icon -->
+        <section class="logo-fav-search">
+            
+           <div class="coding-ninjas-icon">
+            <a href="coding-icon">
+            <img src="https://i.pinimg.com/originals/ae/2e/56/ae2e5651b74a00d5d31b8c6453fa3ebb.png">
+             </a>  
+           </div> 
+ <!-- fav -->
+           <nav class="topnav">
+            <div class="top-fav">
+               <a href="favourite"> Favourites</a>
+               </div>
+           </nav>
+<!-- search-box -->
+           <div class="search-profile-box">
+               <!-- search bar right align -->
+           <div class="search">
+              <input type="text" class="searchTerm" placeholder="What are you looking for?">
+              <button type="submit" class="searchButton">
+                <i class="fa fa-search"></i>
+             </button>
+           </div>
+ <!-- bell icon -->
+           <button type="button" class="icon-button">
+            <span class="notification-icon">
+                <img src="https://img.myloview.com/stickers/bell-icon-notification-vector-illustration-700-238151164.jpg">
+                
+            </span>
+               
+           </button>
+
+           <!-- profile picture right alligned-->
+            <div class="profile-pic">
+                <a href="profile-icon">
+                    <img src="https://images.pexels.com/photos/1704488/pexels-photo-1704488.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+                </a>
+                - 
+            </div>
+           </div>
+            
+    </div>
+          
+        </section>
+     
+        
+<!-- sideBar -->
+        <section class="new">
+            <div class="menu_side">
+                <h1> PlayList</h1>
+                <div class="PlayList">
+                    <h4 class="active"><span></span><i class="bi bi-music-note-beamed"></i>PlayList</h4>
+                     <h4 class="active" ><span></span><i class="bi bi-music-note-beamed"></i>LastListning</h4>
+                      <h4 class="active"><span></span><i class="bi bi-music-note-beamed"></i>Recommended</h4>
+                </div>
+            
+
+
+<!-- sidebar -->
+                
+                <div class="menu_song">
+                    <li class="songItem">
+                        <span>01</span>
+                        <img src="https://dhimanproductions.com/wp-content/uploads/2020/04/sheikh-karan-aujla-poster-design-dhiman-productions-albumart-rehaan-records-3-min.jpg" alt="adds-latest-release">
+                        <h5>
+                            Shiekh
+                            <div class="subtitle"> Karan Aujila</div>
+                            <i class="bi PlayListPlay   bi-play-circle-fill" id="1"></i>
+                        </h5>
+
+                        
+                    </li>
+                    <li class="songItem">
+                        <span>02</span>
+                        <img src="https://dhimanproductions.com/wp-content/uploads/2020/04/sheikh-karan-aujla-poster-design-dhiman-productions-albumart-rehaan-records-3-min.jpg" alt="adds-latest-release">
+                        <h5>
+                            Shiekh
+                            <div class="subtitle"> Karan Aujila</div>
+                            <i class="bi PlayListPlay   bi-play-circle-fill" id="2"></i>
+                        </h5>
+                         <!-- <i class="bi PlayListPlay   bi-play-circle-fill" id="6"></i> -->
+
+                        
+                    </li>
+                    <li class="songItem">
+                        <span>03</span>
+                        <img src="https://dhimanproductions.com/wp-content/uploads/2020/04/sheikh-karan-aujla-poster-design-dhiman-productions-albumart-rehaan-records-3-min.jpg" alt="adds-latest-release">
+                        <h5>
+                            Shiekh
+                            <div class="subtitle"> Karan Aujila</div>
+                            <i class="bi PlayListPlay   bi-play-circle-fill" id="3"></i>
+                        </h5>
+                         <!-- <i class="bi PlayListPlay   bi-play-circle-fill" id="6"></i> -->
+
+                        
+                    </li>
+                     <li class="songItem">
+                        <span>04</span>
+                        <img src="https://dhimanproductions.com/wp-content/uploads/2020/04/sheikh-karan-aujla-poster-design-dhiman-productions-albumart-rehaan-records-3-min.jpg" alt="adds-latest-release">
+                        <h5>
+                            Shiekh
+                            <div class="subtitle"> Karan Aujila</div>
+                            <i class="bi PlayListPlay   bi-play-circle-fill" id="4"></i>
+                        </h5>
+                        <!--  <i class="bi PlayListPlay   bi-play-circle-fill" id="6"></i> -->
+
+                        
+                    </li>
+                    <li class="songItem">
+                        <span>05</span>
+                        <img src="https://dhimanproductions.com/wp-content/uploads/2020/04/sheikh-karan-aujla-poster-design-dhiman-productions-albumart-rehaan-records-3-min.jpg" alt="adds-latest-release">
+                        <h5>
+                            Shiekh
+                            <div class="subtitle"> Karan Aujila</div>
+                            <i class="bi PlayListPlay   bi-play-circle-fill" id="5"></i>
+                        </h5>
+                        <!--  <i class="bi PlayListPlay   bi-play-circle-fill" id="6"></i> -->
+
+                        
+                    </li>
+                    <!--  -->
+
+                     <li class="songItem">
+                        <span>05</span>
+                        <img src="https://dhimanproductions.com/wp-content/uploads/2020/04/sheikh-karan-aujla-poster-design-dhiman-productions-albumart-rehaan-records-3-min.jpg" alt="adds-latest-release">
+                        <h5>
+                            Shiekh
+                            <div class="subtitle"> Karan Aujila</div>
+                            <i class="bi PlayListPlay   bi-play-circle-fill" id="5"></i>
+                        </h5>
+                        <!--  <i class="bi PlayListPlay   bi-play-circle-fill" id="6"></i> -->
+
+                        
+                    </li>
+                     <li class="songItem">
+                        <span>05</span>
+                        <img src="https://dhimanproductions.com/wp-content/uploads/2020/04/sheikh-karan-aujla-poster-design-dhiman-productions-albumart-rehaan-records-3-min.jpg" alt="adds-latest-release">
+                        <h5>
+                            Shiekh
+                            <div class="subtitle"> Karan Aujila</div>
+                            <i class="bi PlayListPlay   bi-play-circle-fill" id="5"></i>
+                        </h5>
+                        <!--  <i class="bi PlayListPlay   bi-play-circle-fill" id="6"></i> -->
+
+                        
+                    </li>
+                     <li class="songItem">
+                        <span>05</span>
+                        <img src="https://dhimanproductions.com/wp-content/uploads/2020/04/sheikh-karan-aujla-poster-design-dhiman-productions-albumart-rehaan-records-3-min.jpg" alt="adds-latest-release">
+                        <h5>
+                            Shiekh
+                            <div class="subtitle"> Karan Aujila</div>
+                            <i class="bi PlayListPlay   bi-play-circle-fill" id="5"></i>
+                        </h5>
+                        <!--  <i class="bi PlayListPlay   bi-play-circle-fill" id="6"></i> -->
+
+                        
+                    </li>
+                    
+                 
+                    <!--  -->
+             
+                </div>        
+            </div>
+            <!--  -->
+
+            <div class="popular">
+              <!--  <ul class="hero_section_list"> -->
+                <li>
+                   <div class="child_popular">
+                    <div class="imgpop imghov">
+                       <img src="https://i1.wp.com/lifeandmore.in/wp-content/uploads/2021/05/MAY_28_SUKOON.jpg?resize=850%2C560&ssl=1">
+                   </div>
+               </div>
+           </li>
+           <li>
+            <div class="child_popular1">
+                <div class="imgpop1 imghov">
+                    <img src="https://findmusicbox.com/assets/imagesall/Mood-Booster.jpg">
+                </div>
+            </div>
+            
+        </li>
+        <li>
+            <div class="child_popular2">
+                <div class="imgpop2 imghov">
+                    <img src="https://media.pitchfork.com/photos/5debe781cade48000818ecce/2:1/w_2560%2Cc_limit/2019_songs.jpg">
+                </div>
+            </div>
+            
+            
+        </li>
+        
+
+
+        
+     </div>  
+
+        </section>
+         <div class="songs">
+            <h3 class="headingsongs">
+                Latest Songs
+            </h3>
+            <div class="subsongs">
+                <a href="famousArtists.html">
+                    <img src="https://static.spotboye.com/uploads/tn_2020-9-17-8-21-27_thumbnail.jpg">
+                </a>
+                
+            </div>
+             <div class="subsongs">
+                <a href="famousArtists.html">
+                    <img src="https://www.cityairnews.com/uploads/images/image_750x_5e4c161c1f341.jpg">
+                </a>
+                
+            </div>
+             <div class="subsongs">
+                <a href="famousArtists.html">
+                    <img src="https://media.newstracklive.com/uploads/entertainment-news/regional-cinema-news/Mar/01/big_thumb/ninja_5e5b7cd806093.JPG">
+                </a>
+                
+            </div>
+             <div class="subsongs">
+                <a href="famousArtists.html">
+                    <img src="https://i.pinimg.com/originals/7b/1c/a1/7b1ca12d1602face27c4e4a6ed42a72b.jpg">
+                </a>
+                
+            </div>
+             <div class="subsongs">
+                <a href="famousArtists.html">
+                    <img src="https://moviegalleri.net/wp-content/uploads/2018/08/Keerthy-Suresh-Vishal-Sandakozhi-2-Movie-Sengarattan-Paaraiyulla-Song-Release-Today-Poster.jpg">
+                </a>
+                
+            </div>
+             <div class="subsongs">
+                <a href="famousArtists.html">
+                    <img src="https://www.thepollywood.com/wp-content/uploads/2020/09/Math.jpg">
+                </a>
+                
+            </div>
+
+             
+         </div>     
+
+        <section class="latestSong">
+              <h1 class="heading-latest">
+                       Famous Artist
+                        
+                    </h1>
+             <div class="latest_song_release">
+
+                    <div class="list-latest">
+                        <img src="https://cdn.shopify.com/s/files/1/0969/9128/products/Music_and_Musicians_Poster_Collection_-_Bob_Dylan_aa9bae85-fce2-44eb-a045-c21006efd1ea.jpg?v=1570000084">
+                        
+                        <h4 >
+                        Bob Dylan 
+                        </h4>
+                        
+                    </div>
+                     <div class="list-latest">
+                        
+                        <img src="https://render.fineartamerica.com/images/rendered/default/poster/6/8/break/images-medium-5/stevie-wonder-pop-art-jim-zahniser.jpg">
+                        <h4> Stevie Wonder</h4>
+                        
+                    </div>
+                     <div class="list-latest">
+                        <img src="https://i0.wp.com/boxofficeworldwide.com/wp-content/uploads/2019/11/Screenshot_20191120-163026__01.jpg?fit=1024%2C806&ssl=1">
+                        <h4 >
+                        Ammy Virk
+                        </h4>
+                        
+                    </div>
+                     <div class="list-latest">
+                        
+                        <img src="https://static.toiimg.com/thumb/msid-72070194,width-800,height-600,resizemode-75,imgsize-207028,pt-32,y_pad-40/72070194.jpg">
+                        <h4> Hardy Sandhu</h4>
+                        
+                    </div>
+                     <div class="list-latest">
+                        <img src="https://rukminim1.flixcart.com/image/416/416/k8ot7rk0/poster/d/7/b/medium-b-praak-punjabi-music-singer-poster-poster-for-room-original-imafqnbwdp2fsxfv.jpeg?q=70">
+                        <h4 >
+                       B-Praak 
+                        </h4>
+                        
+                    </div>
+                     <div class="list-latest">
+                        
+                        <img src="https://www.cinejosh.com/newsimg/newsmainimg/ramuloo-ramulaa-song_b_2010190415.jpg">
+                        <h4> Ramuloo Ramulaa</h4>
+                        
+                    </div>
+                     <div class="list-latest">
+                        <img src="https://i.pinimg.com/originals/b6/0d/4e/b60d4ec2280aa3621533435040269c91.jpg">
+                        <h4 >
+                        Lekh 
+                        </h4>
+                        
+                    </div>
+                     <div class="list-latest">
+                        
+                        <img src="https://www.cinejosh.com/newsimg/newsmainimg/ramuloo-ramulaa-song_b_2010190415.jpg">
+                        <h4> Ramuloo Ramulaa</h4>
+                        
+                    </div>
+            </div> 
+        </section>
+     
+    
+         <section class="adds-latest-release">
+
+             <div class="song_side">
+            <div class="popular_song">
+                <div class="h4">
+                    <h4> Latest Hindi</h4>
+                    <div class="btn_s">
+                        <i id="left_scroll" class="bi bi-arrow-left-short"></i>
+                        <i id="right_scroll" class="bi bi-arrow-right-short"></i>
+                        
+                    </div>
+                  
+                    </div>
+                    <div class="pop_song">
+                        <li class="songItem">
+                            <div class="img_play">
+                                
+                                <img src="https://www.quirkybyte.com/wp-content/uploads/2021/11/Tich.jpg" alt="Tichh-Button">
+                                <i class="bi PlayListPlay   bi-play-circle-fill" id="7"></i>
+                            </div>
+                            <h5>
+                                Tichh-Button 
+                                <br>
+                                <div class="subtitle">
+                                    Gurvinder Billa
+                                </div>
+                            </h5>
+                        </li>
+
+                         <li class="songItem">
+                            <div class="img_play">
+                                
+                                <img src="https://i.ytimg.com/vi/4KZ2v3qBE8o/maxresdefault.jpg" alt="punjabi">
+                                <i class="bi PlayListPlay   bi-play-circle-fill" id="7"></i>
+                            </div>
+                            <h5>
+                                Punjabi Song 
+                                <br>
+                                <div class="subtitle">
+                                    Unknown
+                                </div>
+                            </h5>
+                        </li>
+                         <li class="songItem">
+                            <div class="img_play">
+                                
+                                <img src="https://99lyricstore.com/wp-content/uploads/2022/01/gaani-lyrics-ap-dhillon.jpg" alt="Gaani">
+                                <i class="bi PlayListPlay   bi-play-circle-fill" id="7"></i>
+                            </div>
+                            <h5>
+                                Gaani 
+                                <br>
+                                <div class="subtitle">
+                                    A P Dhillon
+                                </div>
+                            </h5>
+                        </li>
+                         <li class="songItem">
+                            <div class="img_play">
+                                
+                                <img src="https://static.toiimg.com/thumb/msid-76506105,width-1200,height-900,resizemode-4/.jpg" alt="Munde Pind de">
+                                <i class="bi PlayListPlay   bi-play-circle-fill" id="7"></i>
+                            </div>
+                            <h5>
+                               Munde Pind De 
+                                <br>
+                                <div class="subtitle">
+                                    Parmish Verma
+                                </div>
+                            </h5>
+                        </li>
+                         <li class="songItem">
+                            <div class="img_play">
+                                
+                                <img src="https://www.dekhnews.com/entertainment/wp-content/uploads/2020/10/par1-1.jpg" alt="Shad gi">
+                                <i class="bi PlayListPlay   bi-play-circle-fill" id="7"></i>
+                            </div>
+                            <h5>
+                                Shad gi 
+                                <br>
+                                <div class="subtitle">
+                                    Pemish Verma
+                                </div>
+                            </h5>
+                        </li>
+                         <li class="songItem">
+                            <div class="img_play">
+                                
+                                <img src="https://static.toiimg.com/thumb/msid-71215722,imgsize-202312,width-800,height-600,resizemode-75/71215722.jpg" alt="4 yaar">
+                                <i class="bi PlayListPlay   bi-play-circle-fill" id="7"></i>
+                            </div>
+                            <h5>
+                               4 yaar
+                                <br>
+                                <div class="subtitle">
+                                    Permish Verma
+                                </div>
+                            </h5>
+                        </li>
+                         <li class="songItem">
+                            <div class="img_play">
+                                
+                                <img src="https://static.toiimg.com/thumb/msid-65859489,imgsize-70543,width-800,height-600,resizemode-75/65859489.jpg" alt="Ammy Virk">
+                                <i class="bi PlayListPlay   bi-play-circle-fill" id="7"></i>
+                            </div>
+                            <h5>
+                                BackGround 
+                                <br>
+                                <div class="subtitle">
+                                    Ammy-Virk
+                                </div>
+                            </h5>
+                        </li>
+                         <li class="songItem">
+                            <div class="img_play">
+                                
+                                <img src="https://i0.wp.com/urbanasian.com/wp-content/uploads/2020/05/Ammy-Virk-on-the-poster-of-his-latest-single-Main-Suneya.jpeg?resize=640%2C640&ssl=1" alt="Mai Sunya">
+                                <i class="bi PlayListPlay   bi-play-circle-fill" id="7"></i>
+                            </div>
+                            <h5>
+                                Mai sunya
+                                <br>
+                                <div class="subtitle">
+                                    Ammy Virk 
+                                </div>
+                            </h5>
+                        </li>
+                         <li class="songItem">
+                            <div class="img_play">
+                                
+                                <img src="https://static.spotboye.com/uploads/TARE_2020-10-27-9-12-56_thumbnail.jpg" alt="Taare Baliye">
+                                <i class="bi PlayListPlay   bi-play-circle-fill" id="7"></i>
+                            </div>
+                            <h5>
+                                Taare Baliye 
+                                <br>
+                                <div class="subtitle">
+                                    Ammy virk 
+                                </div>
+                            </h5>
+                        </li>
+                         <li class="songItem">
+                            <div class="img_play">
+                                
+                                <img src="https://i0.wp.com/urbanasian.com/wp-content/uploads/2020/05/Ammy-Virk-on-the-poster-of-his-latest-single-Main-Suneya.jpeg?resize=640%2C640&ssl=1" alt="lekh">
+                                <i class="bi PlayListPlay   bi-play-circle-fill" id="7"></i>
+                            </div>
+                            <h5>
+                                mai Sunya
+                                <br>
+                                <div class="subtitle">
+                                   Ammy Virk
+                                </div>
+                            </h5>
+                        </li>
+                         <li class="songItem">
+                            <div class="img_play">
+                                
+                                <img src="https://wp.ptcpunjabi.co.in/wp-content/uploads/2022/03/Lekh-2.jpg" alt="lekh">
+                                <i class="bi PlayListPlay   bi-play-circle-fill" id="7"></i>
+                            </div>
+                            <h5>
+                                Lekh 
+                                <br>
+                                <div class="subtitle">
+                                    B-Praak
+                                </div>
+                            </h5>
+                        </li>
+                         <li class="songItem">
+                            <div class="img_play">
+                                
+                                <img src="https://i0.wp.com/urbanasian.com/wp-content/uploads/2020/05/Ammy-Virk-on-the-poster-of-his-latest-single-Main-Suneya.jpeg?resize=640%2C640&ssl=1" alt="lekh">
+                                <i class="bi PlayListPlay   bi-play-circle-fill" id="7"></i>
+                            </div>
+                            <h5>
+                                Mai Sunya
+                                <br>
+                                <div class="subtitle">
+                                    Ammy Virk
+                                </div>
+                            </h5>
+                        </li>
+                         <li class="songItem">
+                            <div class="img_play">
+                                
+                                <img src="https://static.spotboye.com/uploads/TARE_2020-10-27-9-12-56_thumbnail.jpg" alt="lekh">
+                                <i class="bi PlayListPlay   bi-play-circle-fill" id="7"></i>
+                            </div>
+                            <h5>
+                                Taare Bliye
+                                <br>
+                                <div class="subtitle">
+                                    Ammy Virk  </div>
+                            </h5>
+                        </li>
+                    </div>
+                    
+                </div>
+                
+            </div>
+            <!-- popular artist -->
+
+
+
+            <!--  -->
+
+             <section class="adds-latest-release">
+
+             <div class="song_side">
+            <div class="popular_song">
+                <div class="h4">
+                    <h4> Latest English</h4>
+                    <div class="btn_s">
+                        <i id="left_scroll" class="bi bi-arrow-left-short"></i>
+                        <i id="right_scroll" class="bi bi-arrow-right-short"></i>
+                        
+                    </div>
+                  
+                    </div>
+                    <div class="pop_song">
+                        <li class="songItem">
+                            <div class="img_play">
+                                
+                                <img src="https://i.pinimg.com/564x/e3/a2/21/e3a2215a7e1378f0bd27a36d4c1a63f5.jpg" alt="lekh">
+                                <i class="bi PlayListPlay   bi-play-circle-fill" id="7"></i>
+                            </div>
+                            <h5>
+                                Scream my name
+                                <br>
+                                <div class="subtitle">
+                                    Loud kult
+                                </div>
+                            </h5>
+                        </li>
+
+                         <li class="songItem">
+                            <div class="img_play">
+                                
+                                <img src="https://c.saavncdn.com/615/Welcome-To-My-Life-English-2017-500x500.jpg" alt="lekh">
+                                <i class="bi PlayListPlay   bi-play-circle-fill" id="7"></i>
+                            </div>
+                            <h5>
+                                Welcome To my Life
+                                <br>
+                                <div class="subtitle">
+                                    Cl Scurby
+                                </div>
+                            </h5>
+                        </li>
+                         <li class="songItem">
+                            <div class="img_play">
+                                
+                                <img src="https://i.pinimg.com/originals/81/d2/30/81d230b9c5d2e768c7afd8512bf5c1a4.jpg" alt="lekh">
+                                <i class="bi PlayListPlay   bi-play-circle-fill" id="7"></i>
+                            </div>
+                            <h5>
+                               Falling
+                                <br>
+                                <div class="subtitle">
+                                    Falling
+                                </div>
+                            </h5>
+                        </li>
+                         <li class="songItem">
+                            <div class="img_play">
+                                
+                                <img src="https://i.pinimg.com/564x/e3/a2/21/e3a2215a7e1378f0bd27a36d4c1a63f5.jpg" alt="lekh">
+                                <i class="bi PlayListPlay   bi-play-circle-fill" id="7"></i>
+                            </div>
+                            <h5>
+                                Made In 
+                                <br>
+                                <div class="subtitle">
+                                    cmclzmc
+                                </div>
+                            </h5>
+                        </li>
+                         <li class="songItem">
+                            <div class="img_play">
+                                
+                                <img src="https://c.saavncdn.com/857/Are-You-Lonely-English-2019-20190213200954-500x500.jpg" alt="lekh">
+                                <i class="bi PlayListPlay   bi-play-circle-fill" id="7"></i>
+                            </div>
+                            <h5>
+                                Are You Lonely
+                                <br>
+                                <div class="subtitle">
+                                    Isak
+                                </div>
+                            </h5>
+                        </li>
+                         <li class="songItem">
+                            <div class="img_play">
+                                
+                                <img src="https://www.storypick.com/wp-content/uploads/2014/12/TM2-1024x975.jpg" alt="lekh">
+                                <i class="bi PlayListPlay   bi-play-circle-fill" id="7"></i>
+                            </div>
+                            <h5>
+                                Smack That
+                                <br>
+                                <div class="subtitle">
+                                The Mamalist
+                                </div>
+                            </h5>
+                        </li>
+                         <li class="songItem">
+                            <div class="img_play">
+                                
+                                <img src="https://www.storypick.com/wp-content/uploads/2014/12/TM4-1024x975.jpg" alt="lekh">
+                                <i class="bi PlayListPlay   bi-play-circle-fill" id="7"></i>
+                            </div>
+                            <h5>
+                                Its My Life
+                                <br>
+                                <div class="subtitle">
+                                    drake
+                                </div>
+                            </h5>
+                        </li>
+                         <li class="songItem">
+                            <div class="img_play">
+                                
+                                <img src="https://i.kfs.io/playlist/global/62735858v1/cropresize/600x600.jpg" alt="lekh">
+                                <i class="bi PlayListPlay   bi-play-circle-fill" id="7"></i>
+                            </div>
+                            <h5>
+                                Beauty and the Beast
+                                <br>
+                                <div class="subtitle">
+                                   jada
+                                </div>
+                            </h5>
+                        </li>
+                         <li class="songItem">
+                            <div class="img_play">
+                                
+                                <img src="https://c.saavncdn.com/857/Are-You-Lonely-English-2019-20190213200954-500x500.jpg" alt="lekh">
+                                <i class="bi PlayListPlay   bi-play-circle-fill" id="7"></i>
+                            </div>
+                            <h5>
+                                Are You Lonely 
+                                <br>
+                                <div class="subtitle">
+                                    Isak
+                                </div>
+                            </h5>
+                        </li>
+                         <li class="songItem">
+                            <div class="img_play">
+                                
+                                <img src="https://i.pinimg.com/originals/81/d2/30/81d230b9c5d2e768c7afd8512bf5c1a4.jpg" alt="lekh">
+                                <i class="bi PlayListPlay   bi-play-circle-fill" id="7"></i>
+                            </div>
+                            <h5>
+                                Falling
+                                <br>
+                                <div class="subtitle">
+                                    Falling
+                                </div>
+                            </h5>
+                        </li>
+                         <li class="songItem">
+                            <div class="img_play">
+                                
+                                <img src="https://c.saavncdn.com/857/Are-You-Lonely-English-2019-20190213200954-500x500.jpg" alt="lekh">
+                                <i class="bi PlayListPlay   bi-play-circle-fill" id="7"></i>
+                            </div>
+                            <h5>
+                                Are You Lonely 
+                                <br>
+                                <div class="subtitle">
+                                    kdrsn
+                                </div>
+                            </h5>
+                        </li>
+                         <li class="songItem">
+                            <div class="img_play">
+                                
+                                <img src="https://wp.ptcpunjabi.co.in/wp-content/uploads/2022/03/Lekh-2.jpg" alt="lekh">
+                                <i class="bi PlayListPlay   bi-play-circle-fill" id="7"></i>
+                            </div>
+                            <h5>
+                                Lekh 
+                                <br>
+                                <div class="subtitle">
+                                    B-Praak
+                                </div>
+                            </h5>
+                        </li>
+                         <li class="songItem">
+                            <div class="img_play">
+                                
+                                <img src="https://i.kfs.io/playlist/global/62735858v1/cropresize/600x600.jpg" alt="lekh">
+                                <i class="bi PlayListPlay   bi-play-circle-fill" id="7"></i>
+                            </div>
+                            <h5>
+                                Beauty & Beast 
+                                <br>
+                                <div class="subtitle">
+                                    Beast
+                                </div>
+                            </h5>
+                        </li>
+                    </div>
+                    
+                </div>
+                
+            </div>
+
+      
+        
+        
+
+            <div class="master_play">
+                <div class="wave">
+                   <div class="wave1"></div> 
+                    <div class="wave1"></div>
+                     <div class="wave1"></div>
+
+                </div>
+                <img src="https://static1.colliderimages.com/wordpress/wp-content/uploads/2021/09/you-season-3-poster-netflix-02.jpg?q=50&fit=crop&w=1200&dpr=1.5" alt="Alan">
+                 <h5>Shiekh <br>
+                            <div class="subtitle"> Karan Aujila</div>
+                            
+                        </h5>
+                        <div class="icon">
+                            <i class="bi bi-skip-start-fill"></i>
+                            <i class="bi bi-play-fill"></i>
+                            <i class="bi bi-skip-end-fill"></i>
+                        </div>
+                        <span id="currentStart">0:00</span>
+                        <div class="bar">
+                             <input type="range" id="seek" min="0" value="0" max="100">
+                             <div class="bar2" id="bar2"></div>
+                             <div class="dot"></div>
+                        </div>
+                        <span id="currentEnd">0:00</span>
+                        <div class="vol">
+                            <i class="bi bi-volume-down-fill"></i>
+                             <input type="range" id="vol" min="0" value="30" max="100">
+                              <div class="vol_bar"></div>
+                             <div class="dot" id="vol_dot"></div>
+                        </div>
+
+
+                        <!--  -->
+
+
+
+            </div>
+
+           </section> 
+        </section>
+        </main>
+         
+    
+    <main>
+        
+    </main>
+    </header>
+
+</body>
+</html>
